@@ -1,0 +1,545 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+  
+*{font-family: 'Open Sans', sans-serif;
+ font-family: 'Work Sans', sans-serif;}
+
+ .nav_container{
+   max-width: 1400px;
+    border: 1px solid red;
+    min-height: 50px;
+    display: flex;
+    justify-content: space-between;
+ }
+ .logo_container{
+    display: flex;
+    align-items: center;
+ }
+ .logo_container img{
+    width: 86.041px;
+    height: 40px;
+    object-fit: cover;
+ }
+ .logo_container p{
+    text-align: center;
+    
+ }
+ 
+ .primary_color{
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 45px;
+    
+    font-weight: 700;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+ }
+ .logo_container p .amar{
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-weight: 700;
+
+ }
+ .nav_item_container{
+    border: 1px solid blue;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+ }
+  .follow_icon{
+   display: flex;
+   align-items: center;
+   gap: 20pxpx;
+   border-radius: 8px;
+   padding: 10px;
+  }
+  .follow_icon img{
+   width:30px;
+  }
+
+
+ .banner_container{
+   border: 2px solid red;
+   width: 1920px;
+   height: 850px;
+   display: flex;
+  
+ }
+ 
+ .banner_content{
+   width: 50%;
+   height: 850px;
+   margin-top: 150px;
+ }
+ .banner_content h3{
+   color: #0B0223;
+text-align: center;
+font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+ }
+ .banner_content p{
+text-align: center;
+font-family: Work Sans;
+font-size: 95px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+text-transform: uppercase;
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+ }
+ .img_icon{
+ display: flex;
+ align-items: center;
+ gap: 3px;
+ color: #534C64;
+text-align: center;
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: lowercase;
+padding-left: 275px;
+margin-left: 50px;
+ }
+ .banner_btn{
+   display: flex;
+   align-items: center;
+ }
+ .banner_content .first_one{
+   color: #FFF;
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+display: inline-flex;
+padding: 21px 40px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 48px;
+background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+margin: 10px 296px 148px 300px;
+ }
+.banner_content .second_two{
+   color: #FFF;
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+text-transform: uppercase;
+display: inline-flex;
+align-items: flex-start;
+padding: 21px 40px;
+gap: 10px;
+border-radius: 48px;
+background: #4EC5F7;
+margin:10px 395px 148px 50px ;
+}
+
+.banner_img{
+   width: 50%;
+  
+}
+
+
+
+.gamer_section{
+   width: 1920px;
+   height: 600px;
+   border: 2px solid blue;
+}
+.gamer_container{
+   display: flex;
+   justify-content: center;
+}
+.gamer_img{
+   width: 1108px;
+   height: 600px;
+   border: 2px solid red;
+}
+.gamer_content{
+   width: 812px;
+   height: 600px;
+   border: solid #F948B2;
+   text-decoration: none;
+}
+
+.gamer_content h3{
+text-align: center;
+font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+margin-top: 95px;
+}
+.gamer_content p{
+color: #534C64;
+text-align: center;
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; 
+margin-top: 24px;
+}
+.gamer_content button{
+   color: #FFF;
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+display: inline-flex;
+padding: 21px 40px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 48px;
+background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+margin: 32px 0px 0px 370px;
+}
+.gamer_content p strong{
+   color: #534C64;
+text-align: right;
+font-family: Work Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 45px;
+}
+
+
+
+/*funny container start*/
+ .funny_container{
+   width: 1920px;
+   height: 600px;
+   border: 2px solid tomato;
+ }
+  .funny_header{
+   text-align: center;
+
+  }
+.funny_container .funny_online{
+color: #0B0223;
+text-align: right;
+font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+  }
+  .funny_container .fun{
+ color: #0B0223;
+text-align: right;
+font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+  }
+.funny_container p{
+color: #534C64;
+text-align: center;
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; 
+  }
+.funny_container .funny_one{
+   border: 2px solid teal;
+width: 342px;
+height: 400px;
+ flex-shrink: 0;
+ border-radius: 16px;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+
+
+  }
+  .funny_container .funny_two{
+width: 342px;
+height: 400px;
+flex-shrink: 0;
+border-radius: 16px;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  }
+  .funny_container .funny_three{
+   idth: 342px;
+   height: 400px;
+   flex-shrink: 0;
+   border-radius: 16px;
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+  }
+  .banner_container .funny_four{
+   width: 342px;
+   height: 400px;
+   flex-shrink: 0;
+   border-radius: 16px;
+   background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  }
+.funny_card{
+   margin-left: 240px;
+   display: flex;
+   justify-content: center;
+   gap: 24px;
+}
+
+
+
+
+
+.download_part{
+   width: 1920px;
+   height: 650px;
+   margin: 0 auto;
+}
+.download_container{
+   width: 100%;
+   height: 650px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-left: 340px;
+   display: flex;
+   justify-content: space-between;
+
+}
+
+   
+.download_container .download{
+text-align: right;
+font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px; 
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.download_content .span{
+text-align: center;
+font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px; 
+}
+.download_container .download_img{
+   width: 50%;
+   height: 650px;
+}
+.download_container .download_img img{
+/* margin-right: 240px; */
+
+}
+
+/* careers part */
+.Careers_section{
+   border: 2px solid turquoise;
+   width: 1920px;
+   height: 821px;
+   background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+}
+.Careers_container{
+   width: 1800px;
+   display: flex;
+   justify-content: center;
+}
+.Careers_text h2{
+   text-align: center;
+   color: #FFF;
+font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px; 
+}
+.Careers_text p{
+   color: #FFF;
+   font-family: Work Sans;
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 30px; 
+   text-align: center; 
+}
+.Careers_content{
+
+color: #FFF;
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; 
+display: flex;
+justify-content: space-between;
+margin-top: 30px;
+} 
+.Careers_btn{
+   border-radius: 48px;
+   background: #FFF; 
+   display: inline-flex;
+   padding: 21px 40px;
+   gap: 10px;
+   margin-top: 20px;
+}
+
+
+ /* portugal_content .portugal_content_total{
+   width: 680px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.portugal_content_two{
+   color: #FFF;
+text-align: right;
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 40px; 
+
+}
+.portugal_content_one{
+   color: #FFF;
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 40px;
+} */
+/* action part */
+.action{
+   width: 1920px;
+   background-color:#FFF;
+   border: 2px solid black;
+}
+.container_action{
+   width: 1800px;
+   height: 427px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   
+   
+}
+.action_box_one{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+  
+}
+.action_box_two{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 100px ;
+}
+
+
+
+
+.footer{
+   border:2px solid #F948B2;
+   width: 1920px;
+   height: 650px;
+   background: #0B0223;
+}
+.footer_container{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-left: 50px;
+
+}
+
+.logo_container_footer{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 120px;
+   margin: left 850px;;
+
+}
+.logo_container_footer img{
+   width: 86.041px;
+   height: 40px;
+   object-fit: cover;
+}
+.logo_container_footer p{
+   text-align: center;
+   
+}
+
+.primary_color_footer{
+   text-align: center;
+   font-family: Work Sans;
+   font-size: 45px;
+   font-weight: 700;
+   background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+   background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+.logo_container_footer p .amar_footer{
+   color: #FFF;
+   font-family: Work Sans;
+   font-size: 45px;
+   font-weight: 700;
+   
+}
+.h_line{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   color: #FFF;
+text-align: center;
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+gap: 100px;
+margin-top: 300px;
+}
+.icon_footer{
+   font-size: small;
+   width:300px;
+}
